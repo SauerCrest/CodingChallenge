@@ -1,0 +1,58 @@
+body{
+    font-family: "Raleway", serif;
+    background-image: url(immagini/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container{
+    width: 1000px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+#content{
+    opacity: unset;
+}
+#logo{
+   width: 250px; 
+}
+header{
+    text-align: center;
+    color: lawngreen;
+}
+nav{
+    text-align: center;
+    background-color: lawngreen;
+    margin: auto;
+    max-width: 820px;
+    padding: 10px;
+}
+main h2{
+    display: inline-block;
+}
+main{
+    padding-left: 80px;
+    padding right: 80px;
+}
+.carica{
+    border: 10px solid;
+    border-radius: 5px;
+    margin: 0;
+    
+}
+#carica1{
+    max-width: 250px;
+    border: 10px solid orange;   
+
+}
+#carica2{
+    max-width: 500px;
+    border: 10px solid lawngreen
+}
+#carica3{
+    max-width: 150px;
+    border: 10px solid rgb(252, 66, 24)
+}
